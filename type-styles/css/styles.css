@@ -1,0 +1,49 @@
+body{
+	color: rgb(0,0,0);
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	margin: 40px;
+}
+h1{
+	font-weight: bold;
+	font-size: 70px;
+	color: green;
+}
+span.fontDemo{
+	font-size: 15px;
+	color: red;
+	font-family: "Impact";
+	text-transform: uppercase;
+}
+span.variantDescription{
+	font-size: 10px;
+	color: grey;
+	font-family: "Impact";
+}
+span.fontNormal{
+	font-weight: normal;
+}
+#fontWeightBold{
+	font-weight: bold;
+}
+#fontStyleItalic{
+	font-style: italic;
+}
+#letter-spacingLarge{
+	letter-spacing: 30px;
+}
+#letter-spacingSmall{
+	letter-spacing: -5px;
+}
+#text-transformUpper{
+	text-transform: uppercase;
+}
+#text-transformCap{
+	text-transform: capitalize;
+}
+#text-decorationUnderline{
+	text-decoration: underline;
+}
+#text-decorationLineThrough{
+	text-decoration: line-through;
+}
