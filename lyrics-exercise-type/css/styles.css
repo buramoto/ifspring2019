@@ -1,0 +1,35 @@
+body{
+	color: rgb(0,0,0);
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	margin: 40px;
+	text-align: center;
+}
+h1{
+	font-weight: bold;
+	font-size: 50px;
+	color: green;
+}
+span.dramatic{
+	font-size: 15px;
+	font-family: 'Dosis', sans-serif;
+}
+span.variantDescription{
+	font-size: 10px;
+	color: grey;
+	font-family: "Impact";
+}
+span.fontNormal{
+	font-weight: normal;
+}
+#tagVictory{
+	text-decoration: underline;
+	color: grey;
+	
+}
+#tagReckoning{
+	text-transform: uppercase;
+	color: grey;
+	font-size: 20;
+	font-weight: bold;
+}
