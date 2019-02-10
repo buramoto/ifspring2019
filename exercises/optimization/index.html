@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Image Format Comparisons</title>
+		<style>
+			body {
+				font-family: "Arial", sans-serif;
+				padding: 30px;
+			}
+
+			h1 {
+				margin: 0 0 6px 0;
+			}
+
+			h2 {
+				margin: 0 0 30px 0;
+			}
+
+			table {
+			}
+
+			td, th {
+				background-color: #eee;
+				padding: 30px;
+				margin: 2px;
+				text-align: center;
+				vertical-align: middle;
+			}
+
+			.blank {
+				background-color: transparent;
+			}
+
+			.label {
+				background-color: #3997b6;
+				color: #fff;
+				font-weight: bold;
+				font-size: 16px;
+			}
+
+			.label.optimized {
+				background-color: #39b64e;
+			}
+
+			.note {
+				font-size: 14px;
+				font-weight: normal;
+				font-style: italic;
+			}
+
+			div.note {
+				margin-top: 5px;
+			}
+
+			img {
+				width: 300px;
+				height: 300px;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<h1>Image Optimization Grid</h1>
+		<h2>James Fawcett</h2>
+
+		<table>
+			<tr>
+				<td class="label">Original</td>
+				<td><img src="images/sign_original.jpg" alt="Sign - Original"><div class="note">115KB</div></td>
+				<td><img src="images/hanks_original.jpg" alt="Tom Hanks - Original"><div class="note">49.4KB</div></td>
+				<td><img src="images/wings_original.svg" alt="Wings - Original"><div class="note">5.08KB</div></td>
+			</tr>
+			<tr>
+				<td class="label">GIF 16 <span class="note">(with transparency)</td>
+				<td><img src="images/sign_gif.gif" alt="Sign - Gif"><div class="note">55B</div></td>
+				<td><img src="images/hanks_gif16.gif" alt="Tom Hanks - Gif16"><div class="note">41KB</div></td>
+				<td><img src="images/wings_gif.gif" alt="Wings - Gif"><div class="note">5KB</div></td>
+			</tr>
+			<tr>
+				<td class="label">GIF 256 <span class="note">(with transparency)</td>
+				<td><img src="images/sign_gif.gif" alt="Sign - Gif"><div class="note">55B</div></td>
+				<td><img src="images/hanks_gif16.gif" alt="Tom Hanks - Gif256"><div class="note">41000KB</div></td>
+				<td><img src="images/wings_gif.gif" alt="Wings - Gif"><div class="note">5KB</div></td>
+			</tr>
+			<tr>
+				<td class="label">JPEG Low <span class="note">(10%)</span></td>
+				<td><img src="images/sign_jpegLow.jpg" alt="Sign - JpegLow"><div class="note">26B</div></td>
+				<td><img src="images/hanks_jpegLow.jpg" alt="Tom Hanks - JpegLow"><div class="note">16KB</div></td>
+				<td><img src="images/wings_jpegLow.jpg" alt="Wings - JpegLow"><div class="note">7KB</div></td>
+			</tr>
+			<tr>
+				<td class="label">JPEG Very High <span class="note">(80%)</span></td>
+				<td><img src="images/sign_jpegHigh.jpg" alt="Sign - JpegHigh"><div class="note">51B</div></td>
+				<td><img src="images/hanks_jpegHigh.jpg" alt="Tom Hanks - JpegHigh"><div class="note">27KB</div></td>
+				<td><img src="images/wings_jpegHigh.jpg" alt="Wings - JpegHigh"><div class="note">21KB</div></td>
+			</tr>
+			<tr>
+				<td class="label">PNG-8</td>
+				<td><img src="images/sign_png.png" alt="Sign - Png"><div class="note">193B</div></td>
+				<td><img src="images/hanks_png.png" alt="Tom Hanks - Png"><div class="note">108KB</div></td>
+				<td><img src="images/wings_png.png" alt="Wings - Png"><div class="note">28KB</div></td>
+			</tr>
+			<tr>
+				<td class="label">PNG-24 <span class="note">(without transparency)</span></td>
+				<td><img src="images/sign_png.png" alt="Sign - Png"><div class="note">193B</div></td>
+				<td><img src="images/hanks_png.png" alt="Tom Hanks - PNG"><div class="note">108KB</div></td>
+				<td><img src="images/wings_png.png" alt="Wings - Png"><div class="note">28KB</div></td>
+			</tr>
+			<tr>
+				<td class="label">PNG-24 <span class="note">(with transparency)</span></td>
+				<td><img src="images/sign_png.png" alt="Sign - Png"><div class="note">193B</div></td>
+				<td><img src="images/hanks_png.png" alt="Tom Hanks - PNG"><div class="note">108KB</div></td>
+				<td><img src="images/wings_png.png" alt="Wings - Png"><div class="note">28KB</div></td>
+			</tr>
+			<tr>
+				<td class="label">SVG</td>
+				<td><img src="images/sign_original.jpg" alt="Sign - Original"><div class="note">115KB</div></td>
+				<td><img src="images/hanks_original.jpg" alt="Tom Hanks - Original"><div class="note">49.4KB</div></td>
+				<td><img src="images/wings_original.svg" alt="Wings - svg"><div class="note">5.08KB</div></td>
+			</tr>
+			<tr>
+				<td class="label optimized">Optimized <span class="note">(you choose)</span></td>
+				<td><img src="images/sign_OPT.jpg" alt="Sign - optimized"><div class="note">138KB</div></td>
+				<td><img src="images/hanks_jpegHigh.jpg" alt="Tom Hanks - jpg"><div class="note">27KB</div></td>
+				<td><img src="images/wings_OPT.jpg" alt="Wings - optimized"><div class="note">26KB</div></td>
+			</tr>
+		</table>
+
+
+	</body
+</html>
