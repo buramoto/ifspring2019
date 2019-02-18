@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Archivo Narrow', sans-serif;
+	background-image: url("https://wudesign.me/resources/html_tracing/images/bg.png"), url("images/Sandvich.png");
+	background-repeat: no-repeat, repeat;
+	background-position: center top;
+	min-height: 2380px;
+}
+header{
+	text-align: center;
+	background-color: rgba(255,0,0,0.5);
+	padding-top: 150px;
+	height: 330px;
+}
+h1, h2, h3, h4, h5, p{
+	margin-top: 0;
+}
+header h1{
+	font-size: 80px;
+	margin-bottom: 0px;
+}
+header h2{
+	font-size: 30px;
+}
+section h3{
+	font-size: 40px;
+	padding-top: 38px;
+	margin-bottom: 33px;
+	text-align: center;
+}
+div.textColumn{
+	text-align: left;
+	width: 960px;
+	margin: auto;
+}
+div.textColumn p{
+	font-weight: bolder;
+	font-size: 17px;
+	line-height: 30px;
+}
+div.textColumn img{
+	height: 300px;
+	width: 400px;
+	float: right;
+}
