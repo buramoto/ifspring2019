@@ -35,12 +35,40 @@ div.textColumn{
 	margin: auto;
 }
 div.textColumn p{
-	font-weight: bolder;
+	font-weight: bold;
 	font-size: 17px;
-	line-height: 30px;
 }
 div.textColumn img{
 	height: 300px;
 	width: 400px;
 	float: right;
+	margin-bottom: 25px;
+	margin-left: 10px;
+}
+section.first_section{
+	background-color: blue;
+	height: 712px;
+}
+section.second_section{
+
+}
+div.picture_table{
+	column-count: 2;
+	column-gap: 100px;
+}
+div.picture_table img{
+	float: left;
+	width: 200px;
+	height: 150px;
+}
+div.picture_table table{
+	margin: auto;
+	border-spacing: 40px;
+}
+div.picture_table table tr td{
+	width: 400px;
+}
+div.picture_table p{
+	font-weight: bold;
+	font-size: 20px;
 }
