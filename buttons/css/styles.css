@@ -1,0 +1,415 @@
+a#btn_IBM{
+	display: block;
+	width: 200px;
+	height: 100px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: bold;
+	background-color: grey;
+	background: repeating-linear-gradient(to bottom, blue, white 10%);
+	text-decoration: none;
+	color: black;
+}
+a#btn_IBM:hover {
+	background-image: url("images/IMB-logo.png")no-repeat;
+	background-color: red; 
+	background: repeating-linear-gradient(to bottom, black, white 10%);
+}
+a#btn_nerf {
+	display: inline-block;
+	border-radius: 35px;
+	height: 60px;
+	width: 150px;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: yellow;
+	color: orange;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
+	text-decoration: none;
+	text-shadow: 4px 4px 2px red;
+}
+a#btn_nerf:hover {
+	color: red;
+	text-shadow: 4px 4px 2px yellow;
+}
+a#btn_oldNavy {
+	font-family: sans-serif;
+	font-weight: bold;
+	display: inline-block;
+	border-radius: 35px;
+	height: 50px;
+	width: 230px;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: blue;
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+}
+a#btn_oldNavy:hover {
+	color: blue;
+	background-color: grey;
+}
+a#btn_npr{
+	display: block;
+	width: 145px;
+	height: 100px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	padding-right: 7px;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'ariel', sans-serif;
+	font-weight: bold;
+	background-color: grey;
+	background: linear-gradient(to right, red 33%, black 33%, black 66%, blue 66%);
+	text-decoration: none;
+	color: white;
+}
+a#btn_npr:hover {
+	background-color: black;
+	background: linear-gradient(to right, black 33%, black 33%, black 66%, black 66%);
+}
+a#btn_mbg {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: green;
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	text-decoration: none;
+}
+a#mbg_text{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a#btn_mbg:hover {
+	color: black;
+}
+a#btn_moo{
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	color: green;
+	box-sizing: border-box;
+	text-align: center;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 60px;
+	border-top-left-radius: 50px;
+}
+a#btn_moo:hover {
+	font-weight: bold;
+}
+a#btn_color_run{
+	display: inline-block;
+	font-family: 'Pacifico', cursive;
+	font-weight: normal;
+	box-sizing: border-box;
+	text-align: center;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 40px;
+	border-radius: 25px;
+}
+a#btn_color_run:hover {
+	background: linear-gradient(to right, blue, pink, orange, red, yellow, green);
+}
+a#btn_exploding_kittens{
+	font-family: 'impact', sans-serif;
+	font-weight: bold;
+	display: inline-block;
+	border-radius: 35px;
+	height: 50px;
+	width: 230px;
+	margin:auto;
+	margin-top: 80px;
+	padding: 8px 16px;
+	background-color: red;
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	background-image: none;
+}
+a#btn_exploding_kittens:hover{
+	height: 150px;
+	font-size: 55px;
+}
+a#btn_mollyjogger{
+	display: inline-block;
+	font-family: 'Pacifico', cursive;
+	font-weight: normal;
+	color: green;
+	box-sizing: border-box;
+	text-align: center;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 40px;
+	background-color: white;
+}
+a#btn_mollyjogger:hover {
+	background-color: green;
+	color: white;
+}
+a#btn_newyorker{
+	display: inline-block;
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+	color: black;
+	box-sizing: border-box;
+	text-align: center;
+	margin:auto;
+	margin-top: 75px;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 40px;
+	background-color: white;
+}
+a#btn_newyorker:hover {
+	border: 2px solid #000;
+}
+a#btn_foreFlight{
+	display: inline-block;
+	height: 80px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: blue;
+	color: white;
+	font-size: 25px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+a#btn_foreFlight:hover{
+	background-color: #56cdf1;
+}
+a#btn_tuckerAllen{
+	display: block;
+	width: 230px;
+	height: 100px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 20px;
+	padding-right: 7px;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Times New Roman', Times;
+	background: linear-gradient(to right, blue 33%, red 33%, red 66%, green 66%);
+	text-decoration: none;
+	color: white;
+}
+a#btn_tuckerAllen:hover{
+	background: linear-gradient(to right, white 33%, white 33%, white 66%, white 66%);
+	color: black;
+	border: 2px solid #000
+}
+a#btn_hd{
+	display: block;
+	width: 200px;
+	height: 200px;
+	box-sizing: border-box;
+	border-radius: 100px;
+	margin: auto;
+	margin-top: 40px;
+	padding-top: 30px;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: radial-gradient(circle, #cc7304, #cc7304 50%, black 50%)
+}
+a#btn_hd:hover{
+	color: white;
+	font-size: 33px;
+	margin-top: 40px;
+	padding-top: 10px;
+}
+a#btn_mKors{
+	display: inline-block;
+	font-family: 'Arial', serif;
+	font-weight: bold;
+	color: black;
+	box-sizing: border-box;
+	text-align: center;
+	margin:auto;
+	margin-top: 75px;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 40px;
+	background-color: white;
+	text-transform: uppercase;
+}
+a#btn_mKors:hover {
+	border: 2px dotted #000;
+}
+a#btn_cn{
+	display: block;
+	width: 230px;
+	height: 130px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'ariel', sans-serif;
+	font-weight: bold;
+	background-color: black;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+a#btn_cn:hover {
+	color: black;
+	background-color: white;
+	border: 2px solid #000;
+}
+a#btn_tesla{
+	font-size: 60px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 100px;
+	padding-top: 15px;
+	background-image: url(images/Tesla.png);
+	background-size: 150px;
+}
+a#btn_tesla img{
+	width: 100px;
+	height: 100px;
+}
+a#btn_tesla img:hover{
+	width: 150px;
+	height: 150px;
+}
+a#btn_bissinger{
+	display: inline-block;
+	font-family: 'Uncial Antiqua', cursive;
+	font-weight: bold;
+	color: black;
+	box-sizing: border-box;
+	text-align: center;
+	margin:auto;
+	margin-top: 75px;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 40px;
+	background-color: white;
+}
+a#btn_bissinger:hover {
+	border-bottom: 2px solid purple;
+}
+a#btn_hsn{
+	display: block;
+	width: 200px;
+	height: 200px;
+	box-sizing: border-box;
+	border-radius: 100px;
+	margin: auto;
+	margin-top: 40px;
+	padding-top: 55px;
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: blue;
+}
+a#btn_hsn:hover{
+	text-decoration: underline;
+}
+a#btn_ideo{
+	display: block;
+	width: 200px;
+	height: 200px;
+	box-sizing: border-box;
+	border-radius: 100px;
+	margin: auto;
+	margin-top: 40px;
+	padding-top: 55px;
+	color: black;
+	text-align: center;
+	font-size: 60px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: blue;
+	border: 2px solid #000;
+	background: linear-gradient(to right, #a3ece6 33%, white 33%, white 66%, #ff9393 66%);
+}
+a#btn_ideo:hover{
+	text-decoration: underline;
+	background: linear-gradient(to right, #ff9393 33%, white 33%, white 66%, #a3ece6 66%);
+}
+a#btn_mt{
+	display: inline-block;
+	font-family: 'Arial', serif;
+	font-weight: bold;
+	font-style: italic;
+	color: black;
+	box-sizing: border-box;
+	text-align: center;
+	margin:auto;
+	margin-top: 75px;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 40px;
+	background-color: white;
+	text-transform: uppercase;
+}
+a#btn_mt:hover {
+	background-color: red;
+	color: white;
+}
+a#btn_sardella{
+	display: inline-block;
+	font-family: 'Arial', serif;
+	font-weight: bold;
+	font-style: italic;
+	color: blue;
+	box-sizing: border-box;
+	text-align: center;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 40px;
+	background-color: white;
+	text-transform: uppercase;
+	text-shadow: 4px 4px 3px #0590e5;
+}
+a#btn_sardella:hover {
+	background-color: #0590e5;
+	color: white;
+	text-shadow: 4px 4px 3px blue;
+}
