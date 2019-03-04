@@ -1,0 +1,65 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+	margin: auto;
+	text-align: center;
+}
+section#title{
+	color: black;
+	font-size: 100px;
+	font-weight: bold;
+	background-image: url("../images/curry.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	opacity: 0.5;
+	background-position: center;
+}
+div.description{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 20px;
+	background-color: #d3c2a6;
+}
+h2{
+	text-align: left;
+	color: green;
+	background-color: #bad7ad;
+	border-top: 2px, black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+h3.sectionTitle{
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 20px;
+}
+section#ingred{
+	text-align: left;
+	font-size: 15px;
+	background-color: #d7adad;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+section#instr{
+	text-align: left;
+	font-size: 15px;
+	background-color: #bdc1db;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+div#picSource{
+	text-align: left;
+	font-size: 8px;
+}
+section#conclusion{
+	font-size: 15px;
+	background-color: #ebe7c6;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 20px;
+}
+section#conclusion img{
+	width: 50vw;
+}
