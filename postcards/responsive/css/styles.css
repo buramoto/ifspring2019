@@ -1,0 +1,55 @@
+body{
+	text-align: center;
+}
+a{
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: grey;
+	display: block;
+	background-position: center;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+a#jamie1{
+	background-image: url(../images/Jamie.jpg);
+}
+a#braun{
+	background-image: url(../images/Braun.jpg);
+}
+a#marie{
+	background-image: url(../images/Marie2.jpg);
+}
+
+a div{
+	position: absolute;
+	left: 5vw;
+	bottom: 10vh;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.35);
+	width: 30vw;
+	font-size: 2rem;
+}
+
+img{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+img#jamie{
+	min-width: 1200px;
+	min-height: 750px;	
+}
+@media(max-width: 950px){
+	a div{
+		width: 50vw;
+		font-size: 1.5rem;
+	}
+}
