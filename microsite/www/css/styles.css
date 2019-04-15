@@ -27,9 +27,11 @@ section.sources{
 img{
 	width: 35vw;
 	background-image: radial-gradient(circle,#cfefff,white,white);
+	padding: 5px;
 }
 img.left{
 	float: left;
+	padding-right: 20px;
 }
 img.right{
 	float: right;
@@ -53,6 +55,10 @@ img.right{
 @media(max-width: 300px){
 	img{
 		width: 50vw;
+		padding: 2px;
+	}
+	img.left{
+		padding-right: 5px;
 	}
 }
 @media(max-width: 250px){
