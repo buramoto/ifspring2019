@@ -1,74 +1,155 @@
 body {
+	font-family: 'Archivo Narrow', sans-serif;
 	margin: 0;
 	padding: 0;
-	font-family: 'Archivo Narrow', sans-serif;
-	background-image: url("https://wudesign.me/resources/html_tracing/images/bg.png"), url("images/Sandvich.png");
-	background-repeat: no-repeat, repeat;
-	background-position: center top;
-	min-height: 2380px;
 }
-header{
-	text-align: center;
-	background-color: rgba(255,0,0,0.5);
-	padding-top: 150px;
-	height: 330px;
-}
-h1, h2, h3, h4, h5, p{
+
+h1, h2, h3, h4, h5, p {
 	margin-top: 0;
 }
-header h1{
-	font-size: 80px;
-	margin-bottom: 0px;
-}
-header h2{
-	font-size: 30px;
-}
-section h3{
-	font-size: 40px;
-	padding-top: 38px;
-	margin-bottom: 33px;
+
+header {
 	text-align: center;
+	background: url(../images/Monorail.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:480px;
+	padding-top: 163px;
+	box-sizing: border-box;
+	color: red;
 }
-div.textColumn{
-	text-align: left;
+
+header h1 {
+	font-size: 80px;
+	margin-bottom: 10px;
+}
+
+header h2 {
+	font-size: 30px;
+	margin-top: 13px;
+
+}
+
+.center_column {
 	width: 960px;
 	margin: auto;
 }
-div.textColumn p{
-	font-weight: bold;
-	font-size: 17px;
-}
-div.textColumn img{
-	height: 300px;
-	width: 400px;
+
+.floated {
 	float: right;
-	margin-bottom: 25px;
-	margin-left: 10px;
+	width: 400px;
+	height: 300px;
+	margin: 0px 0px 22px 40px;
 }
-section.first_section{
-	background-color: blue;
-	height: 712px;
+
+h3 {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 45px;
+	padding-bottom: 0px;
+	margin-bottom: 37px;
 }
-section.second_section{
+
+section:first-of-type {
+	background-color: #d3e4a5;
+	height: 713px;
+	box-sizing: border-box;
+	color: grey;
+}
+
+section p {
+	margin: 0px;
+	margin-bottom: 16px;
+	padding: 0px;
+	line-height: 1.4;
+	font-size: 18px;
 
 }
-div.picture_table{
-	column-count: 2;
-	column-gap: 100px;
+
+section:nth-of-type(2) {
+	background-color: #e4a5a5;
+	height: 687px;
+	margin: auto;
 }
-div.picture_table img{
+
+.image_text {
+	width: 960px;
+	margin: auto;
+	color: white;
+
+}
+
+h4 {
+	margin: 3px 0px 9px 0px;
+	font-size: 20px;
+}
+
+.image{
+	margin-left: auto;
+	margin-right: 12px;
+	margin-top: 0;
+	margin-bottom: 24px;
 	float: left;
 	width: 200px;
 	height: 150px;
 }
-div.picture_table table{
+
+.imgDescription {
+	margin: 0;
+	margin-bottom: 43px;
+	width: 420px; 
+}
+
+.column {
+	float: left;
+	width: 50%;
+
+}
+
+#last_section{
+	padding-top: 46px;
+}
+
+.last_paragraph {
+	text-align: center;
 	margin: auto;
-	border-spacing: 40px;
 }
-div.picture_table table tr td{
-	width: 400px;
+
+.parent {
+	text-align: center;
 }
-div.picture_table p{
-	font-weight: bold;
+
+.last_paragraph p {
+	font-size: 26px;
+	line-height: 35px;
+	width: 713px;
+	display: inline-block;
+}
+
+section:nth-of-type(3) {
+	background-color: green;
+	height: 400px;
+	padding: 0;
+	color: blue;
+}
+
+section:last-of-type {
+	height: 105px;
+	background-color: grey;
+	box-sizing: border-box;
+
+}
+
+.lastdiv {
+	width: 960px;
+	margin: auto;
 	font-size: 20px;
+	color: white;
 }
+
+.lastdiv p {
+	padding-top: 41px;
+
+}
+
